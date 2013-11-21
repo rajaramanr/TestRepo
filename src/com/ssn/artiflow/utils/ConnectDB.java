@@ -13,7 +13,7 @@ public class ConnectDB {
             DBConn = DriverManager.getConnection(sourceURL, "root", "root");
         } catch (Exception e) {
             System.out.println("\nProblem connecting to database:: " + e);
-        } // end try-catch
+        } 
         return DBConn;
     }
 }
