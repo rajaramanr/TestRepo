@@ -2,6 +2,10 @@ package com.ssn.artiflow.models;
 
 import java.util.List;
 
+/**
+ * @author NEW
+ *
+ */
 public class Artifact {
 	private int artifact_id;
 	private String artifact_name;

@@ -7,7 +7,7 @@ public class ConnectDB {
 	
 	public static Connection getConnection(String SQLServerIP, String dbName) {
         String sourceURL = "jdbc:mysql://" + SQLServerIP + ":3306/" + dbName;
-        Connection DBConn = null;           // MySQL connection handle
+        Connection DBConn = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
             DBConn = DriverManager.getConnection(sourceURL, "root", "root");
