@@ -7,6 +7,9 @@ import java.util.List;
  *
  */
 public class Artifact {
+	/**
+	 * 
+	 */
 	private int artifact_id;
 	private String artifact_name;
 	private int review_id;
